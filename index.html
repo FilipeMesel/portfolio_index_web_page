@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <style>
+        body {
+            background-color: #8B008B;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #FFF;
+        }
+
+        header {
+            background: rgba(139, 0, 139, 0.8);
+            text-align: center;
+            padding: 20px 0;
+            display: flex; /* Adicione flexbox para alinhar o nome e o e-mail */
+            justify-content: center;
+            align-items: center;
+            flex-direction: column; /* Empilhe elementos verticalmente */
+        }
+
+        header h1 {
+            font-size: 2em;
+            margin: 0; /* Remova a margem superior para o nome */
+        }
+
+        .contact-info {
+            display: flex;
+            margin-top: 10px;
+        }
+
+        .contact-info p {
+            margin: 0 10px;
+        }
+
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center; /* Centralize os cards horizontalmente */
+            align-items: center; /* Centralize os cards verticalmente */
+            padding: 20px;
+        }
+
+        .card {
+            background: rgba(0, 0, 0, 0.8); /* Fundo semitransparente branco para efeito de vidraçaria */
+            color: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 10px;
+            width: 45%;
+            text-align: center;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+        }
+
+        .card a {
+            color: white;
+        }
+
+        .card a:hover {
+            color: black;
+        }
+
+        .card:hover {
+            background: rgba(255, 255, 255, 0.8); /* Fundo semitransparente branco para efeito de vidraçaria */
+            
+            color: black;
+        }
+
+        .card h2 {
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Filipe Mesel L. C. Cardoso</h1>
+    </header>
+    <main>
+        <div class="card fullstack">
+            <h2><a target="_blank" href="https://filipemesel.github.io/JavaScript_web_single_page/">Fullstack Projects</a></h2>
+            <!-- Adicione informações sobre seus projetos aqui -->
+        </div>
+        <div class="card embedded">
+            <h2><a target="_blank" href="https://filipemesel.github.io/cpp_single_web_page/">C++ Embedded Systems Projects</a></h2>
+            <!-- Adicione informações sobre seus projetos aqui -->
+        </div>
+        <div class="card mestrado">
+            <h2><a target="_blank" href="https://filipemesel.github.io/Mestrado_single_web_page/">Sobre Meu Mestrado</a></h2>
+            <!-- Adicione informações sobre seu mestrado aqui -->
+        </div>
+        <div class="card python">
+            <h2><a target="_blank" href="https://filipemesel.github.io/Python_single_web_page/">Python Projects</a></h2>
+            <!-- Adicione informações sobre seus projetos aqui -->
+        </div>
+    </main>
+</body>
+</html>
